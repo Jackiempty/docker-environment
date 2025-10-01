@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # manually build cmd: docker build -t jackiempty/aoc2026-env . --no-cache --progress=plain
-# manually run cmd: docker run -dit --name full_test_1 -p 2223:22 -v ./test:/home/myuser/test jackiempty/aoc2026-env /bin/bash
+# manually run cmd: docker run -dit --name full_test_1 -p 2222:22 -v ./test:/home/myuser/test jackiempty/aoc2026-env /bin/bash
 # push image to cloud: docker push jackiempty/aoc2026-env
 # manually enter container: docker exec -it jackiempty/aoc2026-env /bin/bash
 
